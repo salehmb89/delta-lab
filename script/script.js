@@ -30,8 +30,8 @@ function getCoolNameFacts(name) {
     
   } else if (letterCount < 10) {
     fact = `<br><h3>Your name is average (${letterCount} letters).</h3>`;
-    fact += `<br><h2>Your name is average wooow (${letterCount} letters).</h2>`;
-    fact += `<br><h1>Your name is average I'm gitting crazy(${letterCount} letters).</h1>`;
+    fact += `<br><h2>Your name is average (${letterCount} letters). wooow</h2>`;
+    fact += `<br><h1>Your name is average (${letterCount} letters). I'm gitting crazy</h1>`;
   } else {
     fact = `Your name is quite long (${letterCount} letters).`;
   }
